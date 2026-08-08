@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katzz Legal Center</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-main: #222222;
+            --text-muted: #555555;
+            --accent: #0066cc;
+            --border: #eeeeee;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-main);
+            background-color: var(--bg-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2rem;
+        }
+
+        header p.subtitle {
+            margin: 0;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 12px;
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        nav.jump-links {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 0.9rem;
+        }
+
+        nav.jump-links a {
+            color: var(--accent);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav.jump-links a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--text-main);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            margin-top: 20px;
+            color: #000;
+        }
+
+        p,
+        li {
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .meta-box {
+            background: #fafafa;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 16px 20px;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+
+        .meta-box p {
+            margin: 4px 0;
+        }
+
+        footer {
+            margin-top: 80px;
+            border-top: 1px solid var(--border);
+            padding-top: 20px;
+            text-align: center;
+            font-size: 11px;
+            color: var(--text-muted);
+            line-height: 1.8;
+        }
+
+        footer a {
+            color: var(--text-muted);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Katzz - Legal Center</h1>
+            <p class="subtitle">License Agreement, Terms of Service &amp; Privacy Policy</p>
+            <a href="https://github.com/zulzdesign/Katzz-Documentation/blob/main/README.md" class="back-link">← To
+                README link</a>
+        </header>
+
+        <nav class="jump-links">
+            <a href="#license-terms">License &amp; Terms</a> |
+            <a href="#privacy">Privacy Policy</a>
+        </nav>
+
+        <div class="meta-box">
+            <p><strong>Product:</strong> Katzz Plugin for Grasshopper</p>
+            <p><strong>Developer / Licensor:</strong> Bidezzign Limited</p>
+            <p><strong>Merchant of Record:</strong> Lemon Squeezy</p>
+            <p><strong>Last Updated:</strong> August 2026</p>
+        </div>
+
+        <!-- ================= LICENSE & TERMS OF SERVICE ================= -->
+        <section id="license-terms">
+            <h2>License Agreement &amp; Terms of Service</h2>
+            <p>Please read this section carefully before downloading, installing, or using the Katzz Plugin for
+                Grasshopper software ("the Software"). By installing or using the Software, you agree to be bound by
+                these Terms.</p>
+
+            <h3>1. Scope of Software Functionality</h3>
+            <p>The Software acts strictly as a user interface (UI) canvas wrapper and customization enhancement tool
+                for the Rhino/Grasshopper environment. It does not process architectural, engineering, structural, or
+                mathematical calculations, nor does it generate geometric outputs or manipulate internal native
+                component calculations. Its functions are cosmetic and workflow-focused regarding canvas
+                presentation.</p>
+
+            <h3>2. Intellectual Property &amp; Prohibited Uses</h3>
+            <p>The Software is licensed, not sold. All title, ownership rights, and intellectual property rights in
+                and to the Software remain the sole property of Bidezzign Limited. Licensee agrees NOT to:</p>
+            <ul>
+                <li>Decompile, disassemble, reverse engineer, or attempt to derive the source code of the Katzz .GHA
+                    or associated .DLL assemblies.</li>
+                <li>Modify, adapt, translate, rent, lease, loan, or resell the Software.</li>
+            </ul>
+
+            <h3>3. "As-Is" Provision &amp; System Stability Disclaimer</h3>
+            <p>The Software is provided on an "as is" and "as available" basis, without warranties of any kind,
+                either express or implied.</p>
+            <ul>
+                <li>McNeel's Rhino and Grasshopper environments are highly complex software ecosystems subject to
+                    updates, memory limits, and conflicts with other third-party software.</li>
+                <li>Because the Software executes commands as a wrapper interacting with the active graphical canvas
+                    layer, you acknowledge that sudden application crashes, UI freezes, or loss of unsaved canvas
+                    definitions may occur due to memory handling, hardware acceleration, or overall host
+                    stability.</li>
+                <li>You are solely responsible for maintaining frequent file backups and saving your workspace
+                    files.</li>
+            </ul>
+
+            <h3>4. Absolute Limitation of Liability</h3>
+            <p>To the maximum extent permitted by applicable law, in no event shall Bidezzign Limited, its developer,
+                or affiliates be liable for any direct, indirect, incidental, special, consequential, or punitive
+                damages. This includes, but is not limited to:</p>
+            <ul>
+                <li>Loss of profits, data, layout data, or business opportunities.</li>
+                <li>Work stoppage, computer failure, host application crashes (Rhino/Grasshopper), or data corruption
+                    resulting from the installation or execution of this UI wrapper.</li>
+            </ul>
+            <p>Even if advised of the possibility of such damages, our total aggregate liability for all claims
+                arising out of or relating to the use of the Software shall not exceed the actual amount paid by you
+                for the active license during the twelve (12) months preceding the claim.</p>
+
+            <h3>5. Licensing, Refunds &amp; Statutory Rights</h3>
+            <p>The Software utilizes a subscription model managed via Lemon Squeezy as the official Merchant of
+                Record.</p>
+            <ul>
+                <li><strong>EU/UK/EEA Statutory Rights Waiver:</strong> Due to the digital nature and immediate
+                    delivery of the Software, Licensee acknowledges and agrees that downloading, activating, or
+                    generating a license key constitutes immediate consumption of digital content. You thereby waive
+                    any statutory 14-day cooling-off or withdrawal periods provided under UK, EU, or EEA consumer
+                    protection laws.</li>
+                <li><strong>Refunds</strong> are evaluated strictly on a case-by-case basis at the sole discretion of
+                    Bidezzign Limited.</li>
+                <li><strong>Internet Verification:</strong> The Software requires a periodic internet connection to
+                    validate your active license key against the Lemon Squeezy API. Bidezzign Limited is not
+                    responsible for plugin deactivation resulting from local firewall blocks, network disruptions, or
+                    downtime experienced by third-party servers.</li>
+            </ul>
+        </section>
+
+        <!-- ================= PRIVACY POLICY ================= -->
+        <section id="privacy">
+            <h2>Privacy Policy</h2>
+            <p><strong>Last Updated:</strong> August 2026</p>
+
+            <h3>1. Personal Data Collected During Purchase</h3>
+            <p>Bidezzign Limited does not host checkout infrastructure or process your payment details directly. All
+                sales are processed through Lemon Squeezy.</p>
+            <ul>
+                <li>When you purchase a license, Lemon Squeezy collects your name, email address, country, and
+                    billing information.</li>
+                <li>Bidezzign Limited has access only to your name, email address, purchase date, and transaction
+                    status to issue license keys and fulfill support requests. We never see or store your credit card
+                    data.</li>
+            </ul>
+
+            <h3>2. Software Validation Data (License Management)</h3>
+            <p>When the Software is loaded inside Grasshopper, it sends a secure web request to the Lemon Squeezy API
+                to confirm subscription validity. The data involved during this automated check includes:</p>
+            <ul>
+                <li>The license key entered by the user.</li>
+                <li>An anonymized machine hardware ID string. For single-user accounts, this key dynamically
+                    registers to a maximum of three (3) active hardware IDs at any given time. Licensees may freely
+                    deactivate a machine to transfer the seat assignment to a different device.</li>
+                <li>For enterprise tiers, seat limits are strictly enforced concurrently via the Lemon Squeezy
+                    API.</li>
+                <li>The IP address from which the validation request originated.</li>
+            </ul>
+            <p>This tracking data is used strictly to prevent software piracy and ensure compliance with active
+                seats. It is never sold or traded.</p>
+
+            <h3>3. Third-Party Links &amp; API Processing</h3>
+            <p>Our validation operations rely entirely on the infrastructure of Lemon Squeezy. We recommend
+                reviewing their official corporate legal policies for further details on global tax collection and
+                data security standards.</p>
+
+            <h3>4. How to Complain</h3>
+            <p>If you have any concerns about our use of your personal information, you can contact us directly at
+                bidezzign@gmail.com. You can also file a complaint with the Information Commissioner's Office (ICO)
+                at ico.org.uk.</p>
+        </section>
+
+        <!-- ================= COMPLIANT FOOTER ================= -->
+        <footer id="copyright"></footer>
+    </div>
+
+    <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById('copyright').innerHTML = `
+            © ${currentYear} Bidezzign Limited. All rights reserved. | 
+            <a href="#license-terms">License &amp; Terms</a> | 
+            <a href="#privacy">Privacy Policy</a> <br>
+            Registered in England & Wales (Company No. [Your-Number]) | 
+            Registered Office: [Your Registered Address, London, UK]
+        `;
+    </script>
+</body>
+
+</html>
