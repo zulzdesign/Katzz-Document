@@ -5,60 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katzz Legal Center</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        :root {
-            --bg-color: #ffffff;
-            --text-main: #222222;
-            --text-muted: #555555;
-            --accent: #0066cc;
-            --border: #eeeeee;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            color: var(--text-main);
-            background-color: var(--bg-color);
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 750px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        header {
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 20px;
-            margin-bottom: 40px;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0 0 10px 0;
-            font-size: 2rem;
-        }
-
-        header p.subtitle {
-            margin: 0;
-            color: var(--text-muted);
-            font-size: 0.95rem;
-        }
-
-        .back-link {
-            display: inline-block;
-            margin-top: 12px;
-            color: var(--accent);
-            text-decoration: none;
-            font-size: 0.95rem;
-        }
-
-        .back-link:hover {
-            text-decoration: underline;
-        }
-
         nav.jump-links {
             text-align: center;
             margin-bottom: 40px;
@@ -74,66 +22,6 @@
         nav.jump-links a:hover {
             text-decoration: underline;
         }
-
-        section {
-            margin-bottom: 50px;
-        }
-
-        h2 {
-            font-size: 1.4rem;
-            color: var(--text-main);
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 8px;
-            margin-top: 30px;
-        }
-
-        h3 {
-            font-size: 1.1rem;
-            margin-top: 20px;
-            color: #000;
-        }
-
-        p,
-        li {
-            color: var(--text-muted);
-            font-size: 1rem;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        .meta-box {
-            background: #fafafa;
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            padding: 16px 20px;
-            margin-bottom: 20px;
-            font-size: 0.95rem;
-        }
-
-        .meta-box p {
-            margin: 4px 0;
-        }
-
-        footer {
-            margin-top: 80px;
-            border-top: 1px solid var(--border);
-            padding-top: 20px;
-            text-align: center;
-            font-size: 11px;
-            color: var(--text-muted);
-            line-height: 1.8;
-        }
-
-        footer a {
-            color: var(--text-muted);
-            text-decoration: underline;
-        }
     </style>
 </head>
 
@@ -143,8 +31,7 @@
         <header>
             <h1>Katzz - Legal Center</h1>
             <p class="subtitle">License Agreement, Terms of Service &amp; Privacy Policy</p>
-            <a href="https://github.com/zulzdesign/Katzz-Documentation/blob/main/README.md" class="back-link">← To
-                README link</a>
+            <a href="readme.html" class="back-link">← README link</a>
         </header>
 
         <nav class="jump-links">
@@ -273,6 +160,7 @@
         const currentYear = new Date().getFullYear();
         document.getElementById('copyright').innerHTML = `
             © ${currentYear} Bidezzign Limited. All rights reserved. | 
+            <a href="readme.html#">README</a> |
             <a href="#license-terms">License &amp; Terms</a> | 
             <a href="#privacy">Privacy Policy</a> <br>
             Registered in England & Wales (Company No. 17363545) | 
